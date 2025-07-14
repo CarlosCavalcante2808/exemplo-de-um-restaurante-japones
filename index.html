@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Japonês - Mostruário</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo-placeholder.png" alt="Logo Restaurante Japonês">
+                <span>Sabor Zen</span> </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#reservations">Reservas</a></li>
+                <li><a href="#testimonials">Depoimentos</a></li>
+                <li><a href="#events">Eventos</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#order-online">Pedido Online</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Desvende os Segredos da Culinária Japonesa Autêntica.</h1>
+                <p>Uma Viagem de Sabores Exclusivos Espera por Você.</p>
+                <a href="#menu" class="btn">Ver Menu</a>
+                <a href="#reservations" class="btn secondary-btn">Fazer Reserva</a>
+            </div>
+            <div class="carousel-container">
+                <img src="images/sushi-carousel-1.jpg" alt="Sushi Vibrante" class="carousel-img active">
+                <img src="images/sushi-carousel-2.jpg" alt="Sashimi Delicado" class="carousel-img">
+                <img src="images/sushi-carousel-3.jpg" alt="Ambiente Zen" class="carousel-img">
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <h2>Nosso Menu</h2>
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="sushi">Sushi & Sashimi</button>
+                <button class="category-btn" data-category="temakis">Temakis</button>
+                <button class="category-btn" data-category="pratos-quentes">Pratos Quentes</button>
+                <button class="category-btn" data-category="bebidas">Bebidas</button>
+            </div>
+            <div class="menu-items">
+                <div class="menu-category sushi active">
+                    <div class="menu-item">
+                        <h3>Combinado Especial</h3>
+                        <p>Variedade de sushis e sashimis frescos selecionados pelo chef.</p>
+                        <span>R$ 120,00</span>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Salmão Lovers</h3>
+                        <p>Uma seleção exclusiva para amantes de salmão.</p>
+                        <span>R$ 95,00</span>
+                    </div>
+                    </div>
+                <div class="menu-category temakis">
+                    <div class="menu-item">
+                        <h3>Temaki Salmão Grelhado</h3>
+                        <p>Salmão grelhado com cream cheese e cebolinha.</p>
+                        <span>R$ 35,00</span>
+                    </div>
+                    </div>
+                <div class="menu-category pratos-quentes">
+                    <div class="menu-item">
+                        <h3>Yakisoba Clássico</h3>
+                        <p>Macarrão com legumes frescos e carne ou frango.</p>
+                        <span>R$ 55,00</span>
+                    </div>
+                    </div>
+                <div class="menu-category bebidas">
+                    <div class="menu-item">
+                        <h3>Saquê Gelado</h3>
+                        <p>Delicioso saquê premium para acompanhar sua refeição.</p>
+                        <span>R$ 40,00</span>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>Sobre Nós</h2>
+            <p>No "Sabor Zen", a culinária japonesa é mais do que comida; é uma arte. Dedicamo-nos a trazer a você a autenticidade dos sabores do Japão, combinando tradição milenar com um toque contemporâneo. Nossos ingredientes são cuidadosamente selecionados, garantindo frescor e qualidade em cada prato. Venha descobrir a paixão e a precisão que colocamos em cada detalhe, proporcionando uma experiência gastronômica inesquecível.</p>
+            <div class="about-cards">
+                <div class="card">
+                    <i class="fas fa-fish"></i>
+                    <h3>Ingredientes Frescos</h3>
+                    <p>Compromisso com a qualidade e frescor dos nossos insumos.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Tradição e Inovação</h3>
+                    <p>Respeitamos a tradição e inovamos para surpreender seu paladar.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h3>Paixão pela Culinária</h3>
+                    <p>Cada prato é feito com dedicação e amor pela arte japonesa.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <h2>Galeria</h2>
+            <div class="gallery-grid">
+                <img src="images/gallery-1.jpg" alt="Prato de Sushi Detalhado">
+                <img src="images/gallery-2.jpg" alt="Sashimi Variado">
+                <img src="images/gallery-3.jpg" alt="Ramen Saboroso">
+                <img src="images/gallery-4.jpg" alt="Ambiente do Restaurante">
+                <img src="images/gallery-5.jpg" alt="Chef Preparando Sushi">
+                <img src="images/gallery-6.jpg" alt="Bebida Japonesa">
+            </div>
+        </section>
+
+        <section id="reservations" class="reservations-section">
+            <h2>Faça Sua Reserva</h2>
+            <form class="reservation-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Hora:</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="guests">Número de Pessoas:</label>
+                <input type="number" id="guests" name="guests" min="1" max="20" required>
+
+                <label for="message">Mensagem (opcional):</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit" class="btn">Confirmar Reserva</button>
+            </form>
+            <div id="reservation-status" class="status-message"></div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <h2>O Que Dizem Nossos Clientes</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial-item active">
+                    <p>"Ambiente incrível e sabores inesquecíveis! Cada prato é uma obra de arte."</p>
+                    <span>- Cliente Satisfeito 1</span>
+                </div>
+                <div class="testimonial-item">
+                    <p>"O melhor sushi que já provei! Fresco, autêntico e com um atendimento impecável."</p>
+                    <span>- Cliente Satisfeito 2</span>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Uma experiência gastronômica completa. Recomendo a todos os amantes da culinária japonesa!"</p>
+                    <span>- Cliente Satisfeito 3</span>
+                </div>
+            </div>
+            <div class="carousel-dots"></div>
+        </section>
+
+        <section id="events" class="events-section">
+            <h2>Eventos Especiais</h2>
+            <div class="event-cards">
+                <div class="event-card">
+                    <img src="images/event-sushi-workshop.jpg" alt="Workshop de Sushi">
+                    <h3>Workshop de Sushi para Iniciantes</h3>
+                    <p>Aprenda a arte de enrolar sushi com nossos chefs especializados. Vagas limitadas!</p>
+                    <span>Data: DD/MM/AAAA</span>
+                    <span>Horário: HH:MM</span>
+                    <a href="#" class="btn btn-small">Saiba Mais</a>
+                </div>
+                <div class="event-card">
+                    <img src="images/event-sake-tasting.jpg" alt="Degustação de Saquê">
+                    <h3>Noite de Degustação de Saquê</h3>
+                    <p>Explore os diversos tipos de saquê e harmonize com petiscos japoneses.</p>
+                    <span>Data: DD/MM/AAAA</span>
+                    <span>Horário: HH:MM</span>
+                    <a href="#" class="btn btn-small">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog-section">
+            <h2>Nosso Blog</h2>
+            <div class="blog-posts">
+                <article class="blog-post">
+                    <h3>A História Milenar do Sushi</h3>
+                    <p>Descubra a fascinante jornada do sushi, desde suas origens até se tornar um ícone global.</p>
+                    <a href="#" class="read-more">Ler Mais <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="blog-post">
+                    <h3>5 Benefícios Incríveis do Chá Verde Japonês</h3>
+                    <p>Além de saboroso, o chá verde oferece uma série de benefícios para sua saúde.</p>
+                    <a href="#" class="read-more">Ler Mais <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </section>
+
+        <section id="order-online" class="order-online-section">
+            <h2>Pedido Online (Em Breve)</h2>
+            <p>Estamos trabalhando para oferecer a comodidade de fazer seu pedido online em breve. Fique ligado para novidades!</p>
+            <a href="#contact" class="btn">Entre em Contato para Pedidos</a>
+            </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contato</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> Endereço: Rua dos Suspiros, 123 - Bairro Zen, Cidade Sol Nascente - BR</p>
+                <p><i class="fas fa-phone"></i> Telefone: (XX) XXXX-XXXX</p>
+                <p><i class="fas fa-envelope"></i> E-mail: contato@saborzen.com</p>
+            </div>
+            <div class="social-media">
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15753.864350170046!2d-47.8860718!3d-15.7797746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3952f4dc1e85%3A0xf67b7e6c9b4e7b8!2sBras%C3%ADlia%2C%20DF!5e0!3m2!1spt-BR!2sbr!4v1701234567890!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sabor Zen - Todos os direitos reservados. Desenvolvido para Mostruário Freelance.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
